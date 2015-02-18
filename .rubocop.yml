@@ -1,0 +1,14 @@
+AllCops:
+  Exclude:
+    - concurrent-enumerable.gemspec
+    - lib/concurrent-enumerable.rb
+
+Documentation:
+  Enabled: false
+
+Eval:
+  Exclude:
+    - spec/spec_helper.rb
+
+MethodLength:
+  Max: 20
